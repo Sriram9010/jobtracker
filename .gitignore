@@ -1,0 +1,24 @@
+# Node.js dependencies
+node_modules/
+frontend/node_modules/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Java build files
+target/
+jobtracker/target/
+
+# Frontend build files
+dist/
+frontend/dist/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Protect local database credentials
+jobtracker/src/main/resources/application.properties

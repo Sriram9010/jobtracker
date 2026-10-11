@@ -1,0 +1,9 @@
+POST http://localhost:8080/jobs
+Content-Type: application/json
+
+{
+  "companyName": "TCS",
+  "jobTitle": "Java Developer",
+  "location": "Hyderabad",
+  "status": "Applied"
+}

@@ -1,0 +1,44 @@
+# Java and Spring Boot
+target/
+*.class
+*.log
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Frontend dependencies and build files
+frontend/node_modules/
+frontend/dist/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Keep local database credentials private
+src/main/resources/application.properties
+# Node.js dependencies
+node_modules/
+
+# IntelliJ project files
+.idea/
+
+# Build output
+target/
+dist/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Local database credentials
+jobtracker/src/main/resources/application.properties
